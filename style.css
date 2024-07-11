@@ -1,0 +1,186 @@
+.sagg{
+padding-top:300px ;
+}
+.button1{
+    background-color: #040720;
+    
+    color: white;
+    border: none;
+    padding: 15px 50px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px ;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: backgroung color 0.3s;
+}
+.button2 {
+  background-color: #1AA260;
+
+    color: white;
+    border: none;
+    padding: 15px 50px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px ;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: backgroung color 0.3s;
+}
+.container{ 
+    width: 34vmin;
+    position: absolute;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    padding-top: 20%;
+    top: 35%;
+    left: 50%;
+    overflow: hidden;
+    border: 1px ;
+    border-radius: 2px;
+   /* box-shadow: 10px 25px 30px rgba(30,30,200,0.3);*/
+}
+.wrapper{
+    width: 100%;
+    animation: paused;
+    display: flex;
+    animation: slide 8s infinite;
+}
+.welcome{
+padding-left: 70px;
+padding-right: 70px;
+font-size: 40px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 70px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+
+  
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            background-color: #040720;
+            color: white;
+            padding: 15px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+
+.testimonials {
+    max-width:84%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: justify;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonials h1 {
+    text-align: center;
+    color: #333;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.testimonial {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.quote {
+    font-size: 16px;
+    color: #555;
+    margin: 0 0 10px;
+}
+
+.author {
+    font-size: 14px;
+    color: #888;
+    padding-top: 10px;
+    text-align: left;
+    margin: 0;
+}
+
+
+table{
+/*border-collapse: collapse;*/
+background-color: white;
+}
+
+img{
+object-fit: fit;
+border-radius: 8px}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+}
